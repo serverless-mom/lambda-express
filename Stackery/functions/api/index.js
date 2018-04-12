@@ -22,7 +22,7 @@ module.exports = function handler (event, context, callback) {
     remoteAddress: event.ip
   };
 
-  return server.initialize()
+  return app.initialize()
     .then(() => app.inject(request))
     .then((response) => {
       console.log(response);
