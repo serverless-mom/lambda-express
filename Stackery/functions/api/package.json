@@ -14,6 +14,7 @@
   },
   "homepage": "https://github.com/stackery/hapi-serverless-example#readme",
   "dependencies": {
-    "ProductsAPI": "github:stackery/hapi-example"
+    "ProductsAPI": "github:stackery/hapi-example",
+    "express": "^4.16.3"
   }
 }
